@@ -1,0 +1,211 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insignia Object Detection</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="ins-main-container-wrp">
+        <!-- Left Sidebar (SideBar) -->
+        <div class="ins-left-sidebar">
+          <div class="logo">
+            <img
+              src="./images/insignia_logo.svg"
+              alt="insignia logo"
+              class="logo-img"
+            />
+          </div>
+
+          <div class="ins-filter-btn-wrp" style="padding-top: 1rem">
+            <button type="submit" class="filter-btn">
+              <i class="fa-solid fa-border-top-left"></i>Countertops
+            </button>
+            <button type="submit" class="filter-btn">
+              <i class="fa-solid fa-cube"></i>Walls
+            </button>
+            <button type="submit" class="filter-btn">
+              <i class="fa-solid fa-earth-asia"></i>Floors
+            </button>
+          </div>
+
+          <hr
+            style="
+              border-top: 1px solid rgba(0, 0, 0, 0.15);
+              margin: 0.938rem 0rem;
+            "
+          />
+
+          <div class="ins-search-filter-btn-wrp">
+            <button class="search filter-btn" style="width: auto">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="filters filter-btn">
+              <i class="fa-solid fa-grip-lines"></i>Filters
+            </button>
+            <div class="ins-view-btn-wrp" style="gap: 0">
+              <button class="list-view filter-btn active">
+                <i class="fa-solid fa-list-ul"></i>
+              </button>
+              <button class="grid-view filter-btn">
+                <i class="fa-solid fa-grip"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="ins-product-list">
+            <div class="product-card">
+              <img src="./images/2.webp" alt="Cafe Emperador Slab" />
+              <div class="product-details">
+                <div class="product-favorite">
+                  <span class="product-title">Tiles</span>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3>Cafe Emperador - Slab</h3>
+                <p class="product-size">Size: 96" x 65" x 5/8</p>
+                <a href="#" class="product-link"
+                  >More product details <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="./images/3.webp" alt="Coco Emperador Slab" />
+              <div class="product-details">
+                <div class="product-favorite">
+                  <span class="product-title">Tiles</span>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3>Coco Emperador - Slab</h3>
+                <p class="product-size">Size: 96" x 65" x 5/8</p>
+                <a href="#" class="product-link"
+                  >More product details <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="./images/6.webp" alt="Melange Venetian Slab" />
+              <div class="product-details">
+                <div class="product-favorite">
+                  <span class="product-title">Tiles</span>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3>Melange Venetian - Slab</h3>
+                <p class="product-size">Size: 96" x 65" x 5/8</p>
+                <p class="sku">SKU: RSL-MELANGE</p>
+                <a href="#" class="product-link"
+                  >More product details <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="./images/7.webp" alt="Melange Venetian Slab" />
+              <div class="product-details">
+                <div class="product-favorite">
+                  <span class="product-title">Tiles</span>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3>Melange Venetian - Slab</h3>
+                <p class="product-size">Size: 96" x 65" x 5/8</p>
+                <p class="sku">SKU: RSL-MELANGE</p>
+                <a href="#" class="product-link"
+                  >More product details <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <img src="./images/8.webp" alt="Melange Venetian Slab" />
+              <div class="product-details">
+                <div class="product-favorite">
+                  <span class="product-title">Tiles</span>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3>Melange Venetian - Slab</h3>
+                <p class="product-size">Size: 96" x 65" x 5/8</p>
+                <p class="sku">SKU: RSL-MELANGE</p>
+                <a href="#" class="product-link"
+                  >More product details <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right (Main content) -->
+        <div class="ins-rignt-sidebar">
+          <header>
+            <div class="options" style="flex: 1">
+              <button type="submit">
+                <i class="fa-solid fa-share-nodes"></i>Share
+              </button>
+              <button type="submit">
+                <i class="fa-solid fa-file-arrow-down"></i>Download
+              </button>
+              <button type="submit">
+                <i class="fa-solid fa-house"></i>Change Room
+              </button>
+              <button type="submit">
+                <i class="fa-solid fa-store"></i>Store
+              </button>
+              <button type="submit" class="product-btn">
+                <i class="fa-solid fa-circle-exclamation"></i>Go po product page
+              </button>
+            </div>
+            <hr />
+            <div class="menu">
+              <button>
+                Menu <i class="fa-solid fa-ellipsis-vertical"></i>
+              </button>
+            </div>
+          </header>
+
+          <div class="ins-kichen-img-wrp">
+            <img
+              src="./images/kichen.jpeg"
+              style="height: 100vh; width: 100%"
+              alt=""
+            />
+          </div>
+
+          <footer>
+            <div class="menu">
+              <h4>
+                Melange Venetian - Slab
+              </h4>
+            </div>
+            <hr />
+            <div class="options-footer" style="flex: 1">
+              <button type="submit">
+                Remove
+                <i class="fa-solid fa-trash-can"></i>
+              </button>
+              <button type="submit">
+                Zoom <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button type="submit">
+                Rotate
+               <i class="fa-solid fa-rotate-left"></i>
+              </button>
+              <button type="submit">
+                Compare <i class="fa-solid fa-code-compare"></i>
+              </button> 
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="./query.js"></script>
+  </body>
+</html>
